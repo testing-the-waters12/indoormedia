@@ -20,7 +20,7 @@
 						$contact = '1-800-247-4793';
 						if ( array_key_exists('s',$_GET) ) {
 							$user = getCurlJSON("https://couponsapi.rtui.com/user-info/$_GET[s]");
-							if ( $user->displayName && $user->telephoneNumber ) {
+							if ( $user && property_exists($user,'displayName') && property_exists($user,'telephoneNumber') ) {
 								$contact = "Call $user->displayName at $user->telephoneNumber";
 							}
 						}
