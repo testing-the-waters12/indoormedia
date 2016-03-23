@@ -1,8 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
 <head>
+	<script   src="https://code.jquery.com/jquery-1.12.2.min.js"   integrity="sha256-lZFHibXzMHo3GGeehn1hudTAP3Sc0uKXBXAzHX1sjtk="   crossorigin="anonymous"></script>
 </head>
 <body>
+<h1>
+	<span id="content">
+	</span>
+</h1>
 <script>
     window.onload = function() {
 		var base = 'http://127.0.0.1/indoormedia/',
@@ -28,6 +33,8 @@
 		urls.forEach( function(url) {
 			window.open( base+url, '_blank' );
 		});
+
+		$('#content').html('Opened ' + urls.length + ' pages in separate tabs');
     }
 </script>
 </body>
