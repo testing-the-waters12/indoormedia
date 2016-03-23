@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
+<?php require_once('resources/templates/init.php') ?>
     <title>Nail and Hair Salon Advertising. How to achieve local presence.</title>
     <meta name="description" content="Do you own a beauty salon? We deliver nail salon and hair salon advertising that works. Achieve local presence. Call us for a quote. " />
     <meta name="keywords" content="nail, hair salon advertising" />

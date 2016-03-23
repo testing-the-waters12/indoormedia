@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
+<?php require_once('resources/templates/init.php') ?>
     <title>Location based advertising agency. Improving local presence </title>
     <meta name="description" content="We are a location based advertising agency. Our custom print ads put your promotions in your customer’s hands, not mail boxes. Call us." />
     <meta name="keywords" content="location based advertising, local advertising agencies" />

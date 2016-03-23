@@ -1,7 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
-        <meta charset="utf-8" />
+<?php require_once('resources/templates/init.php') ?>
         <title>Local Advertising for Dentists and Doctors</title>
         <meta name="description" content="Local advertising for Dentists and Doctors is vital, but your postcards get thrown away. Our ads cannot be ignored find out why. Call us for a quote." />
         <meta name="keywords" content="dentist advertising, doctors advertising" />

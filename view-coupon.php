@@ -10,9 +10,7 @@
 	$coupon = $details->coupon;
 ?>
 
-<!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-    <head>
+<?php require_once('resources/templates/init.php') ?>
 		<title><?=$coupon->title?></title>
         <meta charset="utf-8" />
 		<meta name="description" content="Coupons,<?=$coupon->title?>,RTUI" />

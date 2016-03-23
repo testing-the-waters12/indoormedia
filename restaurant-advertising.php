@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
+<?php require_once('resources/templates/init.php') ?>
     <title>Restaurant Advertising. How to achieve local presence.</title>
     <meta name="description" content="Do you own a restaurant? We deliver restaurant advertising that works. Achieve true local presence. Call us for a free quote." />
     <meta name="keywords" content="restaurant advertising" />

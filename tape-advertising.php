@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
+<?php require_once('resources/templates/init.php') ?>
     <title>Hyper local advertising for businesses.</title>
     <meta name="description" content="With our hyper local advertising, we put a coupon directly in the hands of the consumer who lives and work near you. Call us for a free quote. " />
     <meta name="keywords" content="targeted advertising, hyperlocal advertising" />

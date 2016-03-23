@@ -10,8 +10,8 @@
 			'imageBase' => 'http://www.rtui.com/uploads/couponsthumb',
 			'getShortcut' => function($value) {
 				$alias = basename($value->alias);
-				//return "view-coupon.php/$alias.html";
-				return "view-coupon.php?id=$alias";
+				return "view-coupon.php/$alias.html";
+				//return "view-coupon.php?id=$alias";
 			}
 		)
 	);

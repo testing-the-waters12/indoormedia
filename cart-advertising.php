@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
-<head>
-    <meta charset="utf-8" />
+<?php require_once('resources/templates/init.php') ?>
     <title>Cartvertising to promote your local business in supermarkets</title>
     <meta name="description" content="Cartvertising promotes your business in supermarkets providing essentially the most prominent business directory in your area. Learn more." />
     <meta name="keywords" content="local business directory, local business listings" />
