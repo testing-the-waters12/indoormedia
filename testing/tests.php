@@ -12,26 +12,40 @@
     window.onload = function() {
 		var base = 'http://127.0.0.1/indoormedia/',
 			urls = [
-		        'index.php?s=ahmed.hammad',
-				'cart-advertising.php?s=summer.xiao',
-				'tape-advertising.php?s=eric.shafer',
-				'custom-print-advertising.php?s=unknown.user',
-				'restaurant-advertising.php',
-				'nail-hair-salons.php',
-				'realtor-advertising.php',
-				'local-coupons.php',
-				'tape-testimonials.php',
-				'tape-video-testimonials.php',
-				'cart-testimonials.php',
-				'cart-video-testimonials.php',
-				'contact-us.php',
-				'view-coupon.php?id=401544-shawn-s-smokehouse-bbq-martins.html',
-				'view-video.php?video=http://www.rtui.com/images/videos/Mr_Chicken_NE_Ohio.mp4&name=Mr%20Chicken%20NE%20Ohio',
-				'view-video.php?video=http://www.cartvertising.com/images/videos/ruby_tuesday_hawaii.mp4&name=Ruby%20Tuesday%20Hawaii'
+
+				// Basic pages
+		        base+'index.php?s=ahmed.hammad',
+				base+'cart-advertising.php?s=summer.xiao',
+				base+'tape-advertising.php?s=eric.shafer',
+				base+'custom-print-advertising.php?s=unknown.user',
+				base+'restaurant-advertising.php',
+				base+'nail-hair-salons.php',
+				base+'realtor-advertising.php',
+				base+'contact-us.php',
+
+				// Summary pages
+				base+'local-coupons.php',
+				base+'tape-testimonials.php',
+				base+'tape-video-testimonials.php',
+				base+'cart-testimonials.php',
+				base+'cart-video-testimonials.php',
+
+				// Detail pages
+				base+'view-coupon.php?id=401544-shawn-s-smokehouse-bbq-martins.html',
+				base+'view-video.php?video=http://www.rtui.com/images/videos/Mr_Chicken_NE_Ohio.mp4&name=Mr%20Chicken%20NE%20Ohio',
+				base+'view-video.php?video=http://www.cartvertising.com/images/videos/ruby_tuesday_hawaii.mp4&name=Ruby%20Tuesday%20Hawaii',
+
+				// API pages
+				'https://couponsapi.rtui.com/testimonials/tape',
+				'https://couponsapi.rtui.com/testimonials/cart',
+				'https://couponsapi.rtui.com/testimonials/tape/video',
+				'https://couponsapi.rtui.com/testimonials/cart/video',
+				'https://couponsapi.rtui.com/couponsGeneral',
+				'https://couponsapi.rtui.com/coupons/401544-shawn-s-smokehouse-bbq-martins'
 			];
 
 		urls.forEach( function(url) {
-			window.open( base+url, '_blank' );
+			window.open(url, '_blank' );
 		});
 
 		$('#content').html('Opened ' + urls.length + ' pages in separate tabs');
