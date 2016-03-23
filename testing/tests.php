@@ -20,7 +20,9 @@
 				'cart-testimonials.php',
 				'cart-video-testimonials.php',
 				'contact-us.php',
-				'view-coupon.php?id=401544-shawn-s-smokehouse-bbq-martins.html'
+				'view-coupon.php?id=401544-shawn-s-smokehouse-bbq-martins.html',
+				'view-video.php?video=http://www.rtui.com/images/videos/Mr_Chicken_NE_Ohio.mp4&name=Mr%20Chicken%20NE%20Ohio',
+				'view-video.php?video=http://www.cartvertising.com/images/videos/ruby_tuesday_hawaii.mp4&name=Ruby%20Tuesday%20Hawaii'
 			];
 
 		urls.forEach( function(url) {
