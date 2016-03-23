@@ -7,10 +7,10 @@
     window.onload = function() {
 		var base = 'http://127.0.0.1/indoormedia/',
 			urls = [
-		        'index.php',
-				'cart-advertising.php',
-				'tape-advertising.php',
-				'custom-print-advertising.php',
+		        'index.php?s=ahmed.hammad',
+				'cart-advertising.php?s=summer.xiao',
+				'tape-advertising.php?s=eric.shafer',
+				'custom-print-advertising.php?s=unknown.user',
 				'restaurant-advertising.php',
 				'nail-hair-salons.php',
 				'realtor-advertising.php',
