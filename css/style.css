@@ -1,0 +1,325 @@
+﻿body {
+    font-family: 'Oswald', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    color: #888;
+    line-height: 1.5;
+    padding-top: 7px;
+    font-family: Arial;
+}
+
+h2 {
+    color: #ef1c23;
+    text-transform: uppercase;
+}
+
+.todo {
+    border: 12px solid #fff201;
+}
+
+.redli h4 {
+    text-transform: uppercase;
+}
+
+h4, h3 {
+    line-height: 1.5;
+}
+
+.menu, .footer {
+    background-color: #939598;
+    padding-bottom: 7px;
+}
+
+.foot_bottom {
+    background-color: #222222;
+    padding-top: 12px;
+    padding-bottom: 7px;
+}
+
+.foot_address, .foot_address p, .foot_address h3, .foot_address a {
+    color: #000;
+}
+
+.footer_list {
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+}
+
+.footer_list li {
+    margin: 0 0 4px;
+    padding: 0px;
+    list-style: none;
+    color: #000;
+}
+
+.footer_list a {
+    color: #000;
+}
+
+.action1 {
+    /* Light blue all the way across */
+    background-color: #bccae7;
+    color: #000;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.action1 p {
+    color: #000;
+}
+
+.header, .content1, .content2, .content3, .content4 {
+    /* White background, not images */
+    background-color: #fff;
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.action2, .action3 {
+    /* Gray bar across entire screen */
+    background-image: url("../img/layout/grayBar.jpg");
+}
+
+.action2 {
+    height: 75px;
+}
+
+.action2 p {
+    color: #000;
+}
+
+.action3 {
+    padding-top: 37px;
+    padding-bottom: 37px;
+}
+
+.callout {
+    /* Dark blue all the way acrosss */
+    background-color: #0473BB;
+    color: #fff;
+    padding-top: 37px;
+    padding-bottom: 37px;
+    font-style: italic;
+}
+
+.cartRedHeader {
+    background-image: url("../img/layout/cartRedHeader.png");
+    background-repeat: no-repeat;
+    margin-top: 7px;
+    color: #fff;
+    height: 393px;
+}
+
+.bigText {
+    font-size: 2em;
+}
+
+.darkBlueColor {
+    background-color: #0473BB;
+}
+
+.redColor {
+    color: #ef1c23;
+}
+
+.icon {
+    width: 53px;
+    height: 64px;
+}
+
+.rowBuffer {
+    margin-top: 40px;
+}
+
+.headerImageOverlay {
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    opacity: 0.8;
+    position: absolute;
+    width: 620px;
+    margin-left: 22px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    top: 250px;
+    height: 75px;
+}
+
+.imageOverlay {
+    background-color: #000;
+    bottom: 0;
+    color: #fff;
+    opacity: 0.7;
+    width: 255px;
+    margin-top: 0px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+.mainProductList {
+    height: 280px;
+}
+
+.startTodayForm {
+    background-image: url("../img/layout/formBackground.png");
+    background-repeat: round;
+    min-height: 291px;
+    width: 255px;
+    padding-top: 1px;
+}
+
+.startTodayForm h3, .startTodayForm h4 {
+    color: #fff;
+    padding-bottom: 5px;
+}
+
+.startTodayForm input, .startTodayForm select {
+    width: 200px;
+}
+
+.startTodayForm button {
+    margin-right: 13px;
+}
+
+.redOrderedList {
+    width: 25px;
+    margin-top: 3px;
+    text-align: center;
+    margin-right: 5px;
+    background-color: #e03542;
+    color: white;
+    font-weight: bold;
+    border-radius: 3px;
+}
+
+.generalTopMargin {
+    margin-top: 37px;
+}
+
+.testimonialVideo {
+    margin-top: 17px;
+    margin-bottom: 17px;
+}
+
+.main_menu {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_menu ul {
+    float: right;
+    margin: 0px;
+    padding: 0px;
+    display: table;
+}
+
+.main_menu ul li {
+    margin: 0px;
+    padding: 0px 0px 0px 30px;
+    list-style: none;
+    float: left;
+    position: relative;
+}
+
+.main_menu ul li:first-child {
+    padding-left: 0px;
+}
+
+.main_menu ul li a {
+    font-size: 15px;
+    display: block;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.25s ease 0s;
+    -webkit-transition: all 0.25s ease 0s;
+}
+
+.main_menu ul li a:hover {
+    color: #FFFFFF;
+}
+
+.main_menu ul li:hover ul {
+    display: block;
+}
+
+.main_menu ul li ul {
+    background-color: #a3a5a8;
+    border-top: 21px solid #939598;
+    display: none;
+    left: 0;
+    position: absolute;
+    top: 18px;
+    width: 200px;
+    z-index: 9;
+}
+
+.main_menu ul li ul li {
+    float: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main_menu ul li ul li a {
+    text-transform: uppercase;
+    margin: 0px;
+    padding: 10px;
+}
+
+.main_menu ul li ul li a:hover {
+    background-color: #A11C21;
+}
+
+
+.vertical-align {
+    display: flex;
+    flex-direction: row;
+    min-height: 75px;
+}
+
+.vertical-align > [class^="col-"], .vertical-align > [class*=" col-"] {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cp_img {
+    height: 140px;
+    overflow: hidden;
+}
+
+.img-responsive, .thumbnail > img, .thumbnail a > img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+.couppicr.panel.panel-default {
+    border-radius: 0;
+    border: 1px solid #D7D7D7;
+    border-top: 0;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1));
+    -moz-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+#imgPreviewWithStyles {
+    z-index: 999;
+    border: none;
+    background: #333 url(http://preloaders.net/preloaders/35/Fading%20lines.gif) no-repeat center;
+    padding: 15px;
+}
+/* Text below image */
+ #imgPreviewWithStyles span {
+    color: white;
+    text-align: center;
+    display: block;
+    padding: 10px 0 3px 0;
+}
