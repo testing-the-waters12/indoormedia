@@ -1,6 +1,6 @@
 <?php
 
-	include('resources/libra ry/misc.php');
+	include('resources/library/misc.php');
 
 	showContentBrowser(
 		array(
