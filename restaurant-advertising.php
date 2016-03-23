@@ -23,8 +23,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7 todo">
-                    <img src="http://placehold.it/650X400&text=Placeholder for IMAGE" alt="Register Tape Advertising-this should be a testimonial" />
+                <div class="col-md-7">
+                    <img src="http://placehold.it/650X400&text=Placeholder for IMAGE" alt="Register Tape Advertising-this should be a testimonial" class="todo" />
                 </div>
             </div>
         </div>

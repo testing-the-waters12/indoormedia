@@ -24,8 +24,8 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-7 todo">
-                    <img src="http://placehold.it/650X400&text=Placeholder for IMAGE" alt="Retaurant advertising" />
+                <div class="col-md-7">
+                    <img src="http://placehold.it/650X400&text=Placeholder for IMAGE" alt="Retaurant advertising" class="todo" />
                     <div class="headerImageOverlay text-center">
                         <h2>Local customers delivered</h2>
                     </div>
