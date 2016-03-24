@@ -541,33 +541,43 @@ function showContentBrowser($options) {
                     
 					$data = getCurlJSON($url);
                 ?>
-                <div class="row">
-                    <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
-                        <h3><?=$title?> RESULTS (<?=count($data)?>)</h3>
-                    </div>
-                </div>
-
                 <div id="home" class="row reset-15 tab-pane fade in active">
                     <?php
 						$previewBase = getKeyValue($options, 'previewBase');
 						$imageBase = getKeyValue($options, 'imageBase');
-                        foreach ($data as $value) {
-							if ( property_exists($value,'testimonial') ) {
-								showTestimonialStyleContentThumbnail(
-									$options['getShortcut']($value), 
-									$previewBase,
-									$imageBase,
-									$value
-								);
+						if ( !$data->error ) {
+							?>
+			                <div class="row">
+						        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+									<h3><?=$title?> RESULTS (<?=count($data)?>)</h3>
+								</div>
+							</div>
+							<?php
+	                        foreach ($data as $value) {
+								if ( property_exists($value,'testimonial') ) {
+									showTestimonialStyleContentThumbnail(
+										$options['getShortcut']($value), 
+										$previewBase,
+										$imageBase,
+										$value
+									);
+								}
+								else {
+									showCouponStyleContentThumbnail(
+										$options['getShortcut']($value), 
+										$previewBase,
+										$imageBase,
+										$value
+									);
+								}
 							}
-							else {
-								showCouponStyleContentThumbnail(
-									$options['getShortcut']($value), 
-									$previewBase,
-									$imageBase,
-									$value
-								);
-							}
+						}
+						else {
+							printf('<div style="color:red;text-align:center;"><h1>ERROR: %s</h1></div>',
+										$data->error->message ? 
+											ucwords($data->error->message) : 
+											'An unknown error occurred'
+							);
 						}
                     ?>
                 </div>
