@@ -13,11 +13,15 @@
 		var base = 'http://127.0.0.1/indoormedia/',
 			urls = [
 
-				// Basic pages
+				// Basic pages that use the user info and the route that
+				// needs it.
 		        base+'index.php?s=ahmed.hammad',
 				base+'cart-advertising.php?s=summer.xiao',
 				base+'tape-advertising.php?s=eric.shafer',
 				base+'custom-print-advertising.php?s=unknown.user',
+				'https://couponsapi.rtui.com/user-info/ahmed.hammad',
+
+				// Other basic pages				
 				base+'restaurant-advertising.php',
 				base+'nail-hair-salons.php',
 				base+'realtor-advertising.php',
@@ -56,7 +60,17 @@
 			window.open(url, '_blank' );
 		});
 
-		$('#content').html('Opened ' + urls.length + ' pages in separate tabs');
+		var title = 'Opened ' + urls.length + ' pages in separate tabs',
+			routes = urls.filter( function(url) {
+					return url.search(/couponsapi/) >= 0;
+			}),
+			delim = '<br />&nbsp;&nbsp;&nbsp;&nbsp;';
+		$('#content').html( 
+			title 
+			+ '<p />API Routes:'
+			+ delim
+			+ routes.join(delim)
+		);
     }
 </script>
 </body>
