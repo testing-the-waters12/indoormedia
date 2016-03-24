@@ -545,7 +545,7 @@ function showContentBrowser($options) {
                     <?php
 						$previewBase = getKeyValue($options, 'previewBase');
 						$imageBase = getKeyValue($options, 'imageBase');
-						if ( !$data->error ) {
+						if ( !is_object($data) || !$data->error ) {
 							?>
 			                <div class="row">
 						        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
