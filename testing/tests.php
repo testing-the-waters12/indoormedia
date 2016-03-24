@@ -15,10 +15,10 @@
 
 				// Basic pages that use the user info and the route that
 				// needs it.
-		        base+'index.php?s=ahmed.hammad',
 				base+'cart-advertising.php?s=summer.xiao',
 				base+'tape-advertising.php?s=eric.shafer',
 				base+'custom-print-advertising.php?s=unknown.user',
+		        base+'index.php?s=ahmed.hammad',
 				'https://couponsapi.rtui.com/user-info/ahmed.hammad',
 
 				// Other basic pages				
