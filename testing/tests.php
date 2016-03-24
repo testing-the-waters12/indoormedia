@@ -23,24 +23,32 @@
 				base+'realtor-advertising.php',
 				base+'contact-us.php',
 
-				// Summary pages
-				base+'local-coupons.php',
-				base+'tape-testimonials.php',
-				base+'tape-video-testimonials.php',
-				base+'cart-testimonials.php',
-				base+'cart-video-testimonials.php',
-
-				// Detail pages
-				base+'view-coupon.php?id=401544-shawn-s-smokehouse-bbq-martins.html',
+				// Detail pages.  These don't require any api calls, as they use the data present
 				base+'view-video.php?video=http://www.rtui.com/images/videos/Mr_Chicken_NE_Ohio.mp4&name=Mr%20Chicken%20NE%20Ohio',
 				base+'view-video.php?video=http://www.cartvertising.com/images/videos/ruby_tuesday_hawaii.mp4&name=Ruby%20Tuesday%20Hawaii',
 
-				// API pages
+				// The tape testimonials and the raw data that feeds it
+				base+'tape-testimonials.php',
 				'https://couponsapi.rtui.com/testimonials/tape',
+
+				// The cart testimonials and the raw data that feeds it
+				base+'cart-testimonials.php',
 				'https://couponsapi.rtui.com/testimonials/cart',
+
+				// The tape video testimonials and the raw data that feeds it
+				base+'tape-video-testimonials.php',
 				'https://couponsapi.rtui.com/testimonials/tape/video',
+
+				// The cart video testimonials and the raw data that feeds it
+				base+'cart-video-testimonials.php',
 				'https://couponsapi.rtui.com/testimonials/cart/video',
+
+				// The local coupons summary and the raw data that feeds it
+				base+'local-coupons.php',
 				'https://couponsapi.rtui.com/couponsGeneral',
+
+				// The coupons detail and the the raw data that feeds it
+				base+'view-coupon.php?id=401544-shawn-s-smokehouse-bbq-martins.html',
 				'https://couponsapi.rtui.com/coupons/401544-shawn-s-smokehouse-bbq-martins'
 			];
 
